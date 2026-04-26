@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
+    "dev": "node server.dev.js",
     "test": "mocha 'test/**/*.spec.js' --timeout 30000 --exit",
     "test:task1": "mocha 'test/task1/*.spec.js' --timeout 30000 --exit",
     "test:task2": "mocha 'test/task2/*.spec.js' --timeout 30000 --exit"

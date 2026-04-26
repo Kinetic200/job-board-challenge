@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import app from './app.js';
 import { seedDatabase } from './seed.js';
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/job-board';
 
 mongoose.connect(MONGODB_URI)
