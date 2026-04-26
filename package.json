@@ -1,0 +1,13 @@
+{
+  "name": "job-board",
+  "version": "1.0.0",
+  "description": "MERN Stack Job Board",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "test": "cd backend && npm test",
+    "test:task1": "cd backend && npm run test:task1",
+    "test:task2": "cd backend && npm run test:task2"
+  }
+}
